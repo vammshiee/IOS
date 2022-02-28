@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6BE833827CD493400F1B335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE833727CD493400F1B335 /* AppDelegate.swift */; };
+		B6BE833A27CD493400F1B335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE833927CD493400F1B335 /* SceneDelegate.swift */; };
+		B6BE833C27CD493400F1B335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE833B27CD493400F1B335 /* ViewController.swift */; };
+		B6BE833F27CD493400F1B335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BE833D27CD493400F1B335 /* Main.storyboard */; };
+		B6BE834127CD493500F1B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BE834027CD493500F1B335 /* Assets.xcassets */; };
+		B6BE834427CD493500F1B335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BE834227CD493500F1B335 /* LaunchScreen.storyboard */; };
+		B6BE834F27CD493500F1B335 /* Thirunagari_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE834E27CD493500F1B335 /* Thirunagari_SearchAppTests.swift */; };
+		B6BE835927CD493500F1B335 /* Thirunagari_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE835827CD493500F1B335 /* Thirunagari_SearchAppUITests.swift */; };
+		B6BE835B27CD493500F1B335 /* Thirunagari_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE835A27CD493500F1B335 /* Thirunagari_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6BE834B27CD493500F1B335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BE832C27CD493400F1B335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6BE833327CD493400F1B335;
+			remoteInfo = Thirunagari_SearchApp;
+		};
+		B6BE835527CD493500F1B335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BE832C27CD493400F1B335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6BE833327CD493400F1B335;
+			remoteInfo = Thirunagari_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6BE833427CD493400F1B335 /* Thirunagari_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thirunagari_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BE833727CD493400F1B335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6BE833927CD493400F1B335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6BE833B27CD493400F1B335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6BE833E27CD493400F1B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6BE834027CD493500F1B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6BE834327CD493500F1B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6BE834527CD493500F1B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BE834A27CD493500F1B335 /* Thirunagari_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Thirunagari_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BE834E27CD493500F1B335 /* Thirunagari_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirunagari_SearchAppTests.swift; sourceTree = "<group>"; };
+		B6BE835427CD493500F1B335 /* Thirunagari_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Thirunagari_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BE835827CD493500F1B335 /* Thirunagari_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirunagari_SearchAppUITests.swift; sourceTree = "<group>"; };
+		B6BE835A27CD493500F1B335 /* Thirunagari_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirunagari_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6BE833127CD493400F1B335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BE834727CD493500F1B335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BE835127CD493500F1B335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6BE832B27CD493400F1B335 = {
+			isa = PBXGroup;
+			children = (
+				B6BE833627CD493400F1B335 /* Thirunagari_SearchApp */,
+				B6BE834D27CD493500F1B335 /* Thirunagari_SearchAppTests */,
+				B6BE835727CD493500F1B335 /* Thirunagari_SearchAppUITests */,
+				B6BE833527CD493400F1B335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6BE833527CD493400F1B335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE833427CD493400F1B335 /* Thirunagari_SearchApp.app */,
+				B6BE834A27CD493500F1B335 /* Thirunagari_SearchAppTests.xctest */,
+				B6BE835427CD493500F1B335 /* Thirunagari_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6BE833627CD493400F1B335 /* Thirunagari_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE833727CD493400F1B335 /* AppDelegate.swift */,
+				B6BE833927CD493400F1B335 /* SceneDelegate.swift */,
+				B6BE833B27CD493400F1B335 /* ViewController.swift */,
+				B6BE833D27CD493400F1B335 /* Main.storyboard */,
+				B6BE834027CD493500F1B335 /* Assets.xcassets */,
+				B6BE834227CD493500F1B335 /* LaunchScreen.storyboard */,
+				B6BE834527CD493500F1B335 /* Info.plist */,
+			);
+			path = Thirunagari_SearchApp;
+			sourceTree = "<group>";
+		};
+		B6BE834D27CD493500F1B335 /* Thirunagari_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE834E27CD493500F1B335 /* Thirunagari_SearchAppTests.swift */,
+			);
+			path = Thirunagari_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		B6BE835727CD493500F1B335 /* Thirunagari_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE835827CD493500F1B335 /* Thirunagari_SearchAppUITests.swift */,
+				B6BE835A27CD493500F1B335 /* Thirunagari_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Thirunagari_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6BE833327CD493400F1B335 /* Thirunagari_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BE835E27CD493500F1B335 /* Build configuration list for PBXNativeTarget "Thirunagari_SearchApp" */;
+			buildPhases = (
+				B6BE833027CD493400F1B335 /* Sources */,
+				B6BE833127CD493400F1B335 /* Frameworks */,
+				B6BE833227CD493400F1B335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thirunagari_SearchApp;
+			productName = Thirunagari_SearchApp;
+			productReference = B6BE833427CD493400F1B335 /* Thirunagari_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6BE834927CD493500F1B335 /* Thirunagari_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BE836127CD493500F1B335 /* Build configuration list for PBXNativeTarget "Thirunagari_SearchAppTests" */;
+			buildPhases = (
+				B6BE834627CD493500F1B335 /* Sources */,
+				B6BE834727CD493500F1B335 /* Frameworks */,
+				B6BE834827CD493500F1B335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6BE834C27CD493500F1B335 /* PBXTargetDependency */,
+			);
+			name = Thirunagari_SearchAppTests;
+			productName = Thirunagari_SearchAppTests;
+			productReference = B6BE834A27CD493500F1B335 /* Thirunagari_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6BE835327CD493500F1B335 /* Thirunagari_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BE836427CD493500F1B335 /* Build configuration list for PBXNativeTarget "Thirunagari_SearchAppUITests" */;
+			buildPhases = (
+				B6BE835027CD493500F1B335 /* Sources */,
+				B6BE835127CD493500F1B335 /* Frameworks */,
+				B6BE835227CD493500F1B335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6BE835627CD493500F1B335 /* PBXTargetDependency */,
+			);
+			name = Thirunagari_SearchAppUITests;
+			productName = Thirunagari_SearchAppUITests;
+			productReference = B6BE835427CD493500F1B335 /* Thirunagari_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6BE832C27CD493400F1B335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B6BE833327CD493400F1B335 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B6BE834927CD493500F1B335 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B6BE833327CD493400F1B335;
+					};
+					B6BE835327CD493500F1B335 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B6BE833327CD493400F1B335;
+					};
+				};
+			};
+			buildConfigurationList = B6BE832F27CD493400F1B335 /* Build configuration list for PBXProject "Thirunagari_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6BE832B27CD493400F1B335;
+			productRefGroup = B6BE833527CD493400F1B335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6BE833327CD493400F1B335 /* Thirunagari_SearchApp */,
+				B6BE834927CD493500F1B335 /* Thirunagari_SearchAppTests */,
+				B6BE835327CD493500F1B335 /* Thirunagari_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6BE833227CD493400F1B335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BE834427CD493500F1B335 /* LaunchScreen.storyboard in Resources */,
+				B6BE834127CD493500F1B335 /* Assets.xcassets in Resources */,
+				B6BE833F27CD493400F1B335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BE834827CD493500F1B335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BE835227CD493500F1B335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6BE833027CD493400F1B335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BE833C27CD493400F1B335 /* ViewController.swift in Sources */,
+				B6BE833827CD493400F1B335 /* AppDelegate.swift in Sources */,
+				B6BE833A27CD493400F1B335 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BE834627CD493500F1B335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BE834F27CD493500F1B335 /* Thirunagari_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BE835027CD493500F1B335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BE835927CD493500F1B335 /* Thirunagari_SearchAppUITests.swift in Sources */,
+				B6BE835B27CD493500F1B335 /* Thirunagari_SearchAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6BE834C27CD493500F1B335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6BE833327CD493400F1B335 /* Thirunagari_SearchApp */;
+			targetProxy = B6BE834B27CD493500F1B335 /* PBXContainerItemProxy */;
+		};
+		B6BE835627CD493500F1B335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6BE833327CD493400F1B335 /* Thirunagari_SearchApp */;
+			targetProxy = B6BE835527CD493500F1B335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6BE833D27CD493400F1B335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BE833E27CD493400F1B335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6BE834227CD493500F1B335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BE834327CD493500F1B335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6BE835C27CD493500F1B335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6BE835D27CD493500F1B335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6BE835F27CD493500F1B335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thirunagari_SearchApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thirunagari-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6BE836027CD493500F1B335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thirunagari_SearchApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thirunagari-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6BE836227CD493500F1B335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thirunagari-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thirunagari_SearchApp.app/Thirunagari_SearchApp";
+			};
+			name = Debug;
+		};
+		B6BE836327CD493500F1B335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thirunagari-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thirunagari_SearchApp.app/Thirunagari_SearchApp";
+			};
+			name = Release;
+		};
+		B6BE836527CD493500F1B335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thirunagari-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thirunagari_SearchApp;
+			};
+			name = Debug;
+		};
+		B6BE836627CD493500F1B335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thirunagari-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thirunagari_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6BE832F27CD493400F1B335 /* Build configuration list for PBXProject "Thirunagari_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BE835C27CD493500F1B335 /* Debug */,
+				B6BE835D27CD493500F1B335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BE835E27CD493500F1B335 /* Build configuration list for PBXNativeTarget "Thirunagari_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BE835F27CD493500F1B335 /* Debug */,
+				B6BE836027CD493500F1B335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BE836127CD493500F1B335 /* Build configuration list for PBXNativeTarget "Thirunagari_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BE836227CD493500F1B335 /* Debug */,
+				B6BE836327CD493500F1B335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BE836427CD493500F1B335 /* Build configuration list for PBXNativeTarget "Thirunagari_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BE836527CD493500F1B335 /* Debug */,
+				B6BE836627CD493500F1B335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6BE832C27CD493400F1B335 /* Project object */;
+}
